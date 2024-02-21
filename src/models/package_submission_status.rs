@@ -24,17 +24,3 @@ pub struct PackageSubmissionStatus {
     #[serde(rename = "result", skip_serializing_if = "Option::is_none")]
     pub result: Option<String>,
 }
-
-impl PackageSubmissionStatus {
-    pub fn new(id: String, status: String, task_error: bool) -> PackageSubmissionStatus {
-        PackageSubmissionStatus {
-            id,
-            status,
-            form_errors: None: None,
-            task_error,
-            result: None,
-        }
-    }
-}
-
-
