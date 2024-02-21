@@ -1,5 +1,5 @@
 [package]
-name = "openapi"
+name = "thunderstore-api-v2"
 version = "1"
 authors = ["OpenAPI Generator team and contributors"]
 description = "Schema is automatically generated and not completely accurate."
