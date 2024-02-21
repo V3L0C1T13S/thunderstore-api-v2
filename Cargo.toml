@@ -1,6 +1,6 @@
 [package]
 name = "thunderstore-api-v2"
-version = "1"
+version = "0.1.0"
 authors = ["OpenAPI Generator team and contributors"]
 description = "Schema is automatically generated and not completely accurate."
 # Override this license by providing a License Object in the OpenAPI.
